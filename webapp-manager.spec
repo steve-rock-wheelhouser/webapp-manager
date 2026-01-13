@@ -39,17 +39,18 @@ EOF
 chmod 755 %{buildroot}%{_bindir}/%{name}
 
 # Install desktop file
-cp webapp-manager.desktop %{buildroot}%{_datadir}/applications/
+cp com.wheelhouser.webapp-manager.desktop %{buildroot}%{_datadir}/applications/
 
 # Install icon
-cp assets/icons/webapp-manager.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/
+cp assets/icons/com.wheelhouser.webapp-manager.svg %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/
 
 %files
 %{_bindir}/%{name}
 %{_libexecdir}/%{name}/
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/icons/hicolor/scalable/apps/%{name}.svg
+%{_datadir}/applications/com.wheelhouser.webapp-manager.desktop
+%{_datadir}/icons/hicolor/scalable/apps/com.wheelhouser.webapp-manager.svg
 
 %changelog
 * Tue Jan 13 2026 Steve Rock <steve.rock@wheelhouser.com> - 1.0.0-1
 - Initial release with GTK4 and Libadwaita support
+- Updated to reverse domain name convention (com.wheelhouser.webapp-manager)

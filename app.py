@@ -73,7 +73,7 @@ class WebAppRow(Adw.ActionRow):
 #===============================================================================================
 class WebAppLauncherApp(Adw.Application):
     def __init__(self):
-        super().__init__(application_id="com.example.WebAppLauncher",
+        super().__init__(application_id="com.wheelhouser.webapp-manager",
                          flags=0)
 
     def do_activate(self):
