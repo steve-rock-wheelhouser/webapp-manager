@@ -8,6 +8,7 @@ __pycache__/
 !make-web-shortcut.sh
 !install.sh
 !push.sh
+!release.sh
 rpmbuild/
 amazon-prime/
 disney-plus/
