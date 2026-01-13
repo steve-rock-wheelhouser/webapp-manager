@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+*.desktop
+*.sh
+!launch.sh
+!make-web-shortcut.sh
+amazon-prime/
+disney-plus/
+netflix/
+paramount-plus/
+youtube/
+icon.svg
