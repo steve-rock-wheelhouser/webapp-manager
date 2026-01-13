@@ -6,6 +6,9 @@ __pycache__/
 *.sh
 !launch.sh
 !make-web-shortcut.sh
+!install.sh
+!push.sh
+rpmbuild/
 amazon-prime/
 disney-plus/
 netflix/
